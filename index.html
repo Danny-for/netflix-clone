@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    
+    <!---owl css-->
+    <link rel="stylesheet" href="/style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="/style/owl/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/style/responsive.css">
+
+    
+    <title>NETFLIX </title>
+</head>
+    <header> <!--cabeçario-->
+        <div class="container">
+            <h2 class="logo">NETFLIX</h2>
+            <nav>
+                <a href="#">inicio</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentário</a>
+            </nav><!--navegação/usamos para criar meus de navegação-->
+        </div>
+    </header>
+
+    <main><!--conteúdo princípal-->
+        <div class="filme-principal">
+            <!--class wrappe-->
+            <div class="container">
+                <h3 class="titulo"> Anne with an E</h3>
+                <p class="descricao">O mundo de Green Gables que Anne tanto adora se expande com novas pessoas e emocionantes histórias de amor, perdas e amadurecimento. Assistaa agora as temporadas de Anne with an E, estão sensacionais.</p>
+                
+                <div class="botoes">
+                    <!--role diz pra que serve -->
+                    <button  role="button"class="botao">
+                        <i class="fas fa-play"></i>
+                         ASSISTIR AGORA
+                    </button>
+                    <button role="button" class="botao">
+                       <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÃOES
+                    </button> 
+                </div>
+            </div>  
+        </div> 
+    </main>
+
+    <div class="carrosel-filmes">
+        <div class="owl-carousel olw-theme">
+            <div class="item">
+                <img  class="box-filme" src="/img/mulan.jpg" alt="">
+                
+            </div>
+             <div class="item">
+                 <img class="box-filme" src="/img/love.jpg" alt="">
+             </div>  
+             <div class="item">
+                 <img class="-box-filme" src="/img/ombro.jpg" alt="">
+             </div> 
+             <div class="item">
+                <img class="-box-filme" src="/img/fada.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="-box-filme" src="/img/record.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="-box-filme" src="img/scooby.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="-box-filme" src="/img/harry.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="-box-filme" src="/img/narnia.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="-box-filme" src="/img/narnia3.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="-box-filme" src="/img/narnia1.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/22e2f87608.js" crossorigin="anonymous"></script><!---link para conseguir acessar os icons-->
+
+    <!--owl java script--><!--recomenda que o link do java scripr seja o ultimo,pois pode acontecer um erro na página-->
+
+    <script src="/js/owl/jquery.min.js"></script>
+    <script src="/js/owl/owl.carousel.min.js"></script>
+    <script src="/js/owl/main.js"></script>   
+</body>
+</html>
